@@ -44,8 +44,7 @@ closePopUp.addEventListener('click', () => {
 })
 
 
-popUpButton.addEventListener('click', (e) => {
-    e.preventDefault();
+popUpButton.addEventListener('click', () => {
     popUp.classList.remove('active');
 })
 
